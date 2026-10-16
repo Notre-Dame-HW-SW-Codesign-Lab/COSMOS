@@ -36,7 +36,6 @@
 
 This repository releases the **gem5 simulator implementation** of COSMOS described in our [MICRO 2025 paper](https://doi.org/10.1145/3725843.3756047). The implementation extends the gem5 memory controller with COSMOS prediction, metadata-traffic, and timing models.
 
-> **Release scope:** This is a **source-code release**, not a complete artifact-reproduction package. The paper's workload scripts, testing and experiment configurations, raw results, and plotting scripts are not included. COSMOS models secure-memory behavior for architectural research; this code is **not** production cryptographic or security software.
 
 ## Requirements
 
@@ -209,7 +208,6 @@ COSMOS records statistics through gem5's standard statistics system, usually ava
 
 These statistics describe **different quantities**. In particular, `cosCpGoodFrac` is **not** the CET hit rate or the counter-cache hit rate. Use the same workload, hierarchy, and parameter definitions when comparing experiments.
 
-> **Reproducibility note:** The code makes the COSMOS implementation available for inspection and further research. The complete set of workload configurations and experiment scripts used for the MICRO 2025 evaluation is **not** part of this repository. Building or running the source alone does not guarantee identical published results.
 
 ## Paper and Citation
 

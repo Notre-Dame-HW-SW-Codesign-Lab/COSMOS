@@ -1,0 +1,14 @@
+diff --git a/src/mem/packet.hh b/src/mem/packet.hh
+index df2a816..0a3e0d6 100644
+--- a/src/mem/packet.hh
++++ b/src/mem/packet.hh
+@@ -448,6 +448,9 @@ class Packet : public Printable, public Extensible<Packet>
+      */
+     uint32_t payloadDelay;
+ 
++    /** Timing-only metadata packet injected by the memory controller. */
++    uint8_t bespoke = 0;
++
+     /**
+      * A virtual base opaque structure used to hold state associated
+      * with the packet (e.g., an MSHR), specific to a SimObject that

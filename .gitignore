@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Build files
+build/
+dist/
+*.o
+
+# Local files and secrets
+.env
+.env.*
+*.log
+*.pem
+*.key

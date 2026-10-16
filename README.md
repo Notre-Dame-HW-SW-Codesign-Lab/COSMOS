@@ -10,9 +10,9 @@
   <img alt="BSD 3-Clause" src="https://img.shields.io/badge/license-BSD--3--Clause-D66A36">
 </p>
 
-<!-- Add your cosmic illustration to docs/cosmos_banner.png to display it here. -->
+<!-- Add your cosmic illustration to doc/cosmos_banner.png to display it here. -->
 <p align="center">
-  <img src="docs/cosmos_banner.png" alt="COSMOS: cosmic-themed project illustration" width="420">
+  <img src="doc/cosmos_banner.png" alt="COSMOS: cosmic-themed project illustration" width="420">
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ See the [gem5 repository](https://github.com/gem5/gem5) and [gem5 documentation]
 COSMOS/
 ├── README.md
 ├── LICENSE
-├── docs/
+├── doc/
 │   └── cosmos_banner.png    # Optional README illustration
 ├── src/
 │   └── mem/
